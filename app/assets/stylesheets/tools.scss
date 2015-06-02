@@ -1,1 +1,21 @@
+$asada-green: 	#27ae60;
+$green1: 											$asada-green;
+$green2:											#2ecc71;
+
+
+$body-bg: 			$asada-green;
+
+// NAVBAR STUFF
+$navbar-default-bg: white;
+$navbar-default-link-color: $green1;
+$navbar-default-link-hover-color: $green2;
+
+
+
 @import 'bootstrap';
+
+.asada-navbar {	
+	// border-radius: 0;
+	// margin-bottom: 0;
+	background-color: white;
+}

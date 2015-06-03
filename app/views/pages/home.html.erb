@@ -1,13 +1,15 @@
-<h1>Welcome to Asada</h1>
-<p>
-	Phanny pack selfies readymade you probably haven't heard of them letterpress gastropub keytar. Tote bag slow-carb <em>American Apparel, Kickstarter</em> letterpress blog cred normcore polaroid put a bird on it organic raw denim. 
-</p>
-
-<% if user_signed_in? %>
-	
-<% else %>
+<div class="jumbotron">
+	<h1>Welcome to Asada</h1>
 	<p>
-		<%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-md" %>
-		<%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-md" %>
+		Phanny pack selfies readymade you probably haven't heard of them letterpress gastropub keytar. Tote bag slow-carb <em>American Apparel, Kickstarter</em> letterpress blog cred normcore polaroid put a bird on it organic raw denim. 
 	</p>
-<% end %>
+
+	<% if user_signed_in? %>
+		
+	<% else %>
+		<p>
+			<%= link_to "Log in", new_user_session_path, class: "btn btn-default btn-md" %>
+			<%= link_to "Sign up", new_user_registration_path, class: "btn btn-primary btn-md" %>
+		</p>
+	<% end %>
+</div>

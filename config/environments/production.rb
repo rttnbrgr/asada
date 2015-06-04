@@ -79,5 +79,5 @@ Rails.application.configure do
 
   # Required for Heroku
   # Set host to actually host name
-  config.action_mailer.default_url_options = { host: asada.heroku.com }
+  config.action_mailer.default_url_options = { host: 'https://asada.heroku.com' }
 end

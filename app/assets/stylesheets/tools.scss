@@ -10,9 +10,10 @@ $font-family-sans-serif:					'Lato', 'Helvetica Neue', Helvetica, Arial, sans-se
 // COLORS
 $green1: 														#27ae60;
 $green2:														#2ecc71;
+$clouds: 														#ecf0f1;
 
 // BODY
-$body-bg: 													$green1;
+$body-bg: 													$clouds;
 
 
 /* --------------------------------
@@ -23,10 +24,11 @@ MODULES
 $navbar-default-bg:          				white;
 $navbar-default-link-color: 				#95a5a6;
 $navbar-default-link-hover-color: 	#7f8c8d;
-$brand-primary:              				purple;
+
+// $brand-primary:              				purple;
 $navbar-default-brand-color: 				$green1;
 $navbar-default-brand-hover-color: 	$green2;
-$brand-primary:											$green1;
+// $brand-primary:											$green1;
 $jumbotron-bg: 											white;
 
 // BOOTSTRAP

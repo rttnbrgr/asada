@@ -25,10 +25,9 @@ $navbar-default-bg:          				white;
 $navbar-default-link-color: 				#95a5a6;
 $navbar-default-link-hover-color: 	#7f8c8d;
 
-// $brand-primary:              				purple;
 $navbar-default-brand-color: 				$green1;
 $navbar-default-brand-hover-color: 	$green2;
-// $brand-primary:											$green1;
+$brand-primary:											$green1;
 $jumbotron-bg: 											white;
 
 // BOOTSTRAP
@@ -47,4 +46,8 @@ $jumbotron-bg: 											white;
 
 // HACK
 .no-pad { padding: 0!important
+}
+
+td {
+	padding: 0 1.5em 0.4em 0;
 }

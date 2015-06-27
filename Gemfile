@@ -10,10 +10,12 @@ gem 'turbolinks'
 gem 'jquery-turbolinks'
 gem 'jbuilder', '~> 2.0'
 gem 'bootstrap-sass'
+gem 'will_paginate-bootstrap'
 gem 'devise', '~> 3.5.1'
 gem 'paperclip', '~> 4.2'
 gem 'aws-sdk', '< 2.0'
 gem 'masonry-rails'
+gem 'will_paginate', '~> 3.0.5'
 
 group :development, :test do
   
